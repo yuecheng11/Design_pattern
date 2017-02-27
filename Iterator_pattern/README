@@ -1,0 +1,6 @@
+http://blog.csdn.net/lcl_data/article/details/9310313
+
+1．迭代器角色（Iterator）：迭代器角色负责定义访问和遍历元素的接口。
+2．具体迭代器角色（Concrete Iterator）：具体迭代器角色要实现迭代器接口，并要记录遍历中的当前位置。
+3．集合角色（Aggregate）：集合角色负责提供创建具体迭代器角色的接口。
+4．具体集合角色（Concrete Aggregate）：具体集合角色实现创建具体迭代器角色的接口——这个具体迭代器角色于该集合的结构相关。
